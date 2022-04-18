@@ -30,7 +30,10 @@ function get_Random_4 (lookForward){
     return lookForward[Math.floor(Math.random()*lookForward.length)];
     
 }
-console.log(get_Random_1(when));
-console.log(get_Random_2(what));
-console.log(get_Random_2(avoid));
-console.log(get_Random_2(lookForward));
+
+console.log ("In a " + get_Random_1(when) + " you are going to have " +  get_Random_2(what) + " luck. But I must also warn you to avoid " + get_Random_3(avoid) + 
+" because it could mean doom. But on the bright side you should be on the look out for " + get_Random_4(lookForward) + " because this could change your life " +
+"in ways you couldent possable dream off.");
+
+
+
